@@ -25,5 +25,4 @@ CREATE TABLE appointments (
     is_paid BOOLEAN DEFAULT FALSE
 );
 
-INSERT INTO users (username, password, role) VALUES ('client', '1234', 'CLIENT');
 INSERT INTO users (username, password, role) VALUES ('vet', 'admin', 'VET');
